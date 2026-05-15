@@ -8,10 +8,11 @@ public class Q7 {
         int a = sc.nextInt();
         int b;
 
-        System.out.println("Table of "+a+" is given below :");
+        System.out.println("Table of " + a + " is given below :");
         for (int i = 1; i <= 10; i++) {
             b = a * i;
             System.out.println(a + " X " + i + " = " + b);
         }
+        sc.close();
     }
 }

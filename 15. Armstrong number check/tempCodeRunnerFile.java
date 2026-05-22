@@ -31,14 +31,3 @@ public class Q15 {
         }
         for(int i = 0 ; i < digit ; i++){
             sum = sum + no[i];
-        }
-        
-        if(sum == pri){
-            System.out.println("The given number '"+pri+"' is Armstrong Number " );
-        }
-        else{
-            System.out.println("The given number '"+pri+"' is not Armstrong Number " );
-        }
-        sc.close();
-    }
-}

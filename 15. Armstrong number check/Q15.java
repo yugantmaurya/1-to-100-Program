@@ -7,7 +7,7 @@ public class Q15 {
         int num, a, arm = 1, copyno;
         int digit = 0;
         int sum = 0;
-        int j = 0, pri;
+        int pri;
 
         System.out.println("Enter the Number :");
         num = sc.nextInt();

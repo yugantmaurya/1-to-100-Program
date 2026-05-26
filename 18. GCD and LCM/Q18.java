@@ -52,7 +52,9 @@ public class Q18 {
             }
         }
 
-        System.out.println("the GCD is :" + lar);
+        int lcm = (no*mo)/lar;
+
+        System.out.println("the GCD is : " + lar+ "\nAnd the lCM is : "+lcm + " \n of "+ no+" & "+mo);
         sc.close();
     }
 }

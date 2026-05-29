@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Q21 {
+public class Q22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n, largest = 0;
+        int n, Smallest;
 
         System.out.print("Enter the Value of Numbers :");
         n = sc.nextInt();
@@ -14,13 +14,14 @@ public class Q21 {
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
+        Smallest = a[0];
 
         for (int i = 0; i < n; i++) {
-            if (largest < a[i]) {
-                largest = a[i];
+            if (Smallest > a[i]) {
+                Smallest = a[i];
             }
         }
 
-        System.out.println("The maximum number in array is :" + largest);
+        System.out.println("The smallest number in array is :" + Smallest);
     }
 }

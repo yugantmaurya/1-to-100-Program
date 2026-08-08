@@ -4,7 +4,7 @@ public class Q37 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a;
-        int i, j, count = 1;
+        int i, j, count;
 
         System.out.println("Enter the String ");
         a = sc.nextLine();
@@ -14,6 +14,9 @@ public class Q37 {
             if (visited[i]) {
                 continue;
             }
+
+            count = 1;
+
             for (j = i + 1; j < a.length(); j++) {
 
                 if (a.charAt(i) == a.charAt(j)) {

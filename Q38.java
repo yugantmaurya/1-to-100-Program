@@ -20,6 +20,6 @@ public class Q38 {
       }
 
       System.out.println("Uppercase: " + b);
-
+      sc.close();
    }
 }
